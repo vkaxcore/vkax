@@ -37,7 +37,7 @@
             id: selected-version
             shell: bash
             run: |
-              if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]] || [[ "$GITHUB_REF" == *develop ]] || [[ "$GITHUB_REF" == *v100.10.3* ]]; then
+              if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]] || [[ "$GITHUB_REF" == *develop ]] || [[ "$GITHUB_REF" == *v100.10.4* ]]; then
                   version=${{ steps.versions.outputs.snapshot-version }}
               elif [[ "$GITHUB_EVENT_NAME" != "pull_request" ]] && [[ "$GITHUB_REF" == "refs/heads/main" ]]; then
                   version=${{ steps.versions.outputs.release-version }}
