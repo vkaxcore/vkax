@@ -28,6 +28,6 @@ inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <=
 /** Masternode Collateral Amount */
 
 static const CAmount MASTERNODE_CAMOUNT = 10000000 * COIN;
-static const CAmount NEW_MASTERNODE_CAMOUNT = 1000000 * COIN;
+// static const CAmount NEW_MASTERNODE_CAMOUNT = 1000000 * COIN;
 
 #endif //  BITCOIN_AMOUNT_H
