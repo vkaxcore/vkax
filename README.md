@@ -20,27 +20,18 @@
 <br/>
 <br/>
 
-> [!CAUTION]
-> Before downloading the main client consider participating in the test net first! At this time, this branch is experimental, untested and may be unstable!
-
-<br/>
-
 > [!NOTE]
-> VKAX is an experimental crypto currency, forked from DASH (and BITCOIN) but utilizing a CPU mining algorithm called MIKE. The VKAX community can ensure the algorithm remains asic resistant through hard forks in the future. 
+> VKAX is forked from DASH (and BITCOIN), utilizing a CPU mining algorithm based on GHOSTRIDER called MIKE
 <br/>
 
-VKAX is an experimental, community owned cryptocurrency which mirrors parts of the open source [Bitcoin](https://github.com/bitcoin/bitcoin) and [Dash](https://github.com/dashpay/dash) code base. This means VKAX gains the power of the UTXO blockchain model as well as the benefits of masternodes – which allow qualified holders to earn a share of the block reward. The Mike mining algorithm is based on the asic-proof [Ghostrider](https://github.com/Raptor3um/raptoreum) which ensures that the VKAX network has one CPU, one vote. Through upgrades and hardforks, the community can ensure VKAX remains ASIC resistant. Anyone is free to participate and interact with the VKAX network – you are encouraged to start by reading the documents!
+VKAX is an experimental, community owned cryptocurrency which mirrors parts of the open source [Bitcoin](https://github.com/bitcoin/bitcoin) and [Dash](https://github.com/dashpay/dash) code base. This means VKAX gains the power of the UTXO blockchain model as well as the benefits of masternodes – which allow qualified holders to earn a share of the block reward. The Mike mining algorithm is based on the asic-proof [Ghostrider](https://github.com/Raptor3um/raptoreum) which ensures that the VKAX network has one CPU, one vote. Through upgrades and hardforks, the community can guarentee that VKAX remains ASIC resistant. Anyone is free to participate and interact with the VKAX network – you are encouraged to start by running a wallet!
 
 <br/>
 
-# Emission Schedule
-![image](https://github.com/vkaxcore/VKAX/blob/master/VKAXemission.png?raw=true)
 
-
-<br/>
 
 ## Building VKAX
-
+(tested for ubuntu)
 ```
 git clone https://github.com/vkaxcore/VKAX &&
 cd VKAX/depends/ &&
@@ -52,33 +43,32 @@ cd .. &&
 make
 ```
 
-<br/>
-
-## About VKAX Version 100.10.X
-
-A Crypto Currency **Hard Fork** is when the code of a coin is changed in a substantial way, requiring a majority network consensus to achieve. Much like a civil war, this process can be contentious or upsetting for some. Many active network participants must be pressed into service to signal their vote. By running a client from this branch and keeping it online, you are signaling to the network that you **Vote in Favor** of the changes proposed by this branch. A successful **Hard Fork** will be achieved if enough online clients agree.
 
 <br/>
 
 # VKAX Wallets
-[[built by github]](https://github.com/vkaxcore/VKAX/releases/tag/v100.10.3)
+[[built by github]](https://github.com/vkaxcore/VKAX/actions/runs/8527185200/)
 
-### [[WINDOWS]](https://github.com/vkaxcore/VKAX/releases/download/v100.10.3/vkax-win-.zip)
+### [[WINDOWS]](https://github.com/vkaxcore/VKAX/actions/runs/8527185200/artifacts/1378669472)
 
-### [[MAC]](https://github.com/vkaxcore/VKAX/releases/download/v100.10.3/vkax-macos12-.zip)
+### [[MAC]](https://github.com/vkaxcore/VKAX/actions/runs/8527185200/artifacts/1378669904)
 
-### [[UBUNTU]](https://github.com/vkaxcore/VKAX/releases/download/v100.10.3/vkax-ubuntu22-.zip)
+### [[UBUNTU]](https://github.com/vkaxcore/VKAX/actions/runs/8527185200/artifacts/1378652395)
 
-### [[RASPBERRY PI]](https://github.com/vkaxcore/VKAX/releases/download/v100.10.3/vkax-ubuntu22-arm64-.zip)
+### [[RASPBERRY PI]](https://github.com/vkaxcore/VKAX/actions/runs/8527185200/artifacts/1378666236)
 
 <br/>
 
 ## Mining VKAX
-### [[SRBMiner] (CPU)](https://github.com/doktor83/SRBMiner-Multi/releases)
-
 ### [[XmrigCC] (CPU)](https://github.com/Bendr0id/xmrigCC/releases/tag/3.4.0)
 
+### [[Cpuminer Rplant] (CPU)](https://github.com/rplant8/cpuminer-opt-rplant/releases)
+
+### [[SRBMiner] (CPU)](https://github.com/doktor83/SRBMiner-Multi/releases)
+
 ### [[Wildrig] (GPU)](https://github.com/andru-kun/wildrig-multi/releases)
+
+
 
 <br/>
 
@@ -97,18 +87,35 @@ A Crypto Currency **Hard Fork** is when the code of a coin is changed in a subst
 
 ## VKAX Links
 
-### [[VKAX Explorer 1]](https://x.butkoin.com/network/vkax)
-
-### [[VKAX Explorer 2]](https://insight.vkax.org/insight/)
-
-### [[VKAX Commmunity Forum]](https://github.com/vkaxcore/VKAX/discussions)
 
 ### [[VKAX Website]](https://vkaxcore.github.io/VKAX/)
 
-<br/>
+### [[VKAX Twitter (X)]](https://twitter.com/vkaxcore)
+
+### [[VKAX Explorer]](http://explorer.vkax.net/)
+
+### [[VKAX Insight Explorer]](https://insight.vkax.org/insight/)
+
+### [[VKAX Backup Explorer]](https://x.butkoin.com/network/vkax)
+
+### [[VKAX Commmunity Forum]](https://github.com/vkaxcore/VKAX/discussions)
+
+### [[VKAX Coin Paprika]](https://coinpaprika.com/coin/vkax-vkax/)
+
+### [[VKAX Mining Pool Stats]](https://miningpoolstats.stream/vkax)
+
+### [[VKAX Mining Rig Rental]](https://www.miningrigrentals.com/rigs/mike)
+
+### [[CPU Mining Reddit]](https://www.reddit.com/r/cpumining/)
+
+### [[CPU Mining Discord]](https://discord.gg/AKbJJqMJ7n)
 
 <br/>
 
+# Emission Schedule
+![image](https://github.com/vkaxcore/VKAX/blob/master/VKAXemission.png?raw=true)
+
+<br/>
 
 # Testing
 
@@ -195,9 +202,9 @@ When it is **complete** it should look like this
 ### Write VKAX.conf
 This will **Write** default settings for your VKAX testnet node.
 ```
-mkdir ~/.vkaxcore/
-touch ~/.vkaxcore/vkax.conf &&
-echo -e "rpcuser=vkaxtestnet\nrpcpassword=changemepassword123\nmaxconnections=256\nrpcallowip=127.0.0.1\ntestnet=1\nlisten=1\nserver=1\ndaemon=1\nusehd=1\n" >> ~/.vkaxcore/vkax.conf
+mkdir /home/vkax-test/.vkaxcore/
+touch /home/vkax-test/.vkaxcore/vkax.conf &&
+echo -e "rpcuser=vkaxtestnet\nrpcpassword=changemepassword123\nmaxconnections=256\nrpcallowip=127.0.0.1\ntestnet=1\nlisten=1\nserver=1\ndaemon=1\nusehd=1\n" >> /home/vkax-test/.vkaxcore/vkax.conf
 ```
 
 <br/>
@@ -381,17 +388,15 @@ To **Stop Mining**
 ## More VKAX Commands
 [VKAX Legacy Command Line Reference](https://github.com/vkaxcore/vkax/blob/master/doc/vkax-command-line-rpc-api-reference.md)
 <br/>
-[VKAX CLI Arguments & Commands](https://github.com/vkaxcore/vkax/blob/master/doc/vkax-cli-wallet-arguments-and-commands.md)
-<br/>
-[VKAX Remote Procedure Calls (RPC)](https://github.com/vkaxcore/vkax/blob/master/doc/vkax-remote-procedure-calls.md)
 
+[VKAX Remote Procedure Calls (RPC)](https://github.com/vkaxcore/vkax/blob/master/doc/vkax-remote-procedure-calls.md)
 <br/> 
 
 ## Conclusion
 
 Congrats! You are now running a node on the **VKAX Test Net**
 
-After accumulating **1 000 000** coins you will be eligable to create a **masternode**
+After accumulating **10 000 000** coins you will be eligable to create a **masternode**
 
 Once you are become familiar with the **Test Net** envoirnment, you should be ready to confidently use the VKAX **Main Net**. Good luck!
 
